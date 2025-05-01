@@ -13,7 +13,9 @@
 </head>
 
 <body>
+
 <!-- WRAP CONTENT IN VALIDATED, SEMANTIC HTML5 (SEE HINTS FOLDER LINKED TO IN THE CANVAS INSTRUCTIONS)-->
+ <div class="container">
     <h1>Vanguard</h1>
         <h2>Main Navigation</h2>
         <nav id="about">
@@ -24,9 +26,11 @@
             </ul>
         
         </nav>
+ </div>
+    
             
-
-        <h2>Innovation & Investment</h2>
+<div class="container">
+    <h2>Innovation & Investment</h2>
         We empower businesses to lead the future with high-impact strategies, market intelligence, and financial solutions that drive success.
         Request a Consultation
 
@@ -90,27 +94,44 @@
                         <div class="bar" data-year="2024" style="--height: 100%;"></div>
                     </div>
 
-        <h2>Contact Us</h2>
+
+</div>
+        <div class="container">
+            <h2>Contact Us</h2>
         Want to take your business to the next level? Get in touch with our elite team today.
         <form>
             <label for="fullname">Full Name<span class="required"></span></label>
             <input type="text" name="my-name" id="my-name" required>
 
             <label for="email">Email Address<span class="required"></span></label>
-            <input type="email" name="my-email" id="my-email" required>
+            <input type="email" name="email" id="email" required>
 
-            Company Name
+            <label for="companyname">Company Name<span class="required"></span></label>
+            <input type="text" name="companyname" id="companyname" required>
 
-            Industry
+            <label for="industry">Industry<span class="required"></span></label>
+            <input type="text" name="industry" id="industry" required>
 
-            How can we help you?
+            <label for="my-help">How can we help you?</label>
+			<textarea name="my-help" id="my-help"></textarea>
 
-            Submit
+            <input type="submit" name="my-submit" id="my-submit" value="Submit">
 
 
         </form>
 
+
+        </div>
+        <div class="container">
+            <footer>
+                2025 Vanguard. All rights reserved. 
+                Email: info@vanguard.com 
+                Phone: 480.123.4567 
+    
+            </footer>  
             
-        2025 Vanguard. All rights reserved. 
-        Email: info@vanguard.com 
-        Phone: 480.123.4567
+        </div>
+          
+       
+    </body>
+</html>
