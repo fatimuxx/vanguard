@@ -85,9 +85,9 @@ table {
 }
 
 /* ADD FLOATING SVG LOGO BEFORE THE H1 */
- {
+ h1::before{
     content: "";
-
+    position: absolute;
     left:-.5rem;
     width: 3.75rem;
     height: 3.75rem;
@@ -115,6 +115,8 @@ table {
     position: relative;
     transition: ;
     height: 0;
+    transition: height 1s ease-in-out;
+    justify-content: right;
 }
 /* THIS ONE IS DONE FOR YOU */
 .bar::after {
