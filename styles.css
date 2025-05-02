@@ -228,7 +228,7 @@ nav a {
 /* MEDIA QUERIES (MEDIUM) */ 
 @media (min-width:800px){
     
-    #results table{
+    #results{
         grid-template-columns: 1fr 1fr;
     }
     .results-container {
