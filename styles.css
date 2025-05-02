@@ -115,6 +115,9 @@ table {
     #proven{
         color:var(--white);
     }
+  p{
+    color: var(--black);
+  }
   
     
 .container {
