@@ -62,7 +62,7 @@ table {
     --white: #EAEAEA;
     --black: #000000;
     --charcoal: #333333;
-    --font: "Inter", sans-serif;
+    --font: "Inter", sans-serif;    
 }
 
 /* GLOBAL STYLES (MOBILE FIRST (SMALL) */
@@ -88,6 +88,32 @@ table {
     }
     #services{
         background-color: var(--white);
+    }
+    #profit{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: var(--blue);
+    }
+    #contact{
+     background-color: var(--black);
+        
+    }
+    h1{
+        font-size: 30px;
+        font-weight: bold;
+        text-decoration: none;
+
+    }
+    h2{
+        color: var(--black);
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .paragraph{
+        color:var(--black);
+    }
+    #proven{
+        color:var(--white);
     }
   
     
@@ -169,6 +195,7 @@ nav a {
     position: relative;
     height: 0;
     transition: height 1s ease-in-out;
+  
 }
 /* THIS ONE IS DONE FOR YOU */
 .bar::after {
@@ -201,7 +228,7 @@ nav a {
 /* MEDIA QUERIES (MEDIUM) */ 
 @media (min-width:800px){
     
-    #results{
+    #results table{
         grid-template-columns: 1fr 1fr;
     }
     .results-container {
